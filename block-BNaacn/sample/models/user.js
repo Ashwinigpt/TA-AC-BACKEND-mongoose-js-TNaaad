@@ -9,4 +9,4 @@ var userSchema = new Schema ({
     favourites: [String],
 }, {timestamps: true})
 
-module.exports = mongoose.model('Users', userSchema);
+module.exports = mongoose.model('User', userSchema);
